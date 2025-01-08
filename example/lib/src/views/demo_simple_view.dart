@@ -1,4 +1,4 @@
-import 'package:fengwuxp_openfeign_example/src/helpers/color_helpers.dart';
+import 'package:oak_openfeign_example/src/helpers/color_helpers.dart';
 import 'package:flutter/material.dart';
 
 class DemoSimpleView extends StatelessWidget {

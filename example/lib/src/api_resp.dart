@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'package:built_value/built_value.dart';
 import 'package:built_value/serializer.dart';
 import 'package:oak_dart_basic/index.dart';
-import 'package:fengwuxp_openfeign_example/src/feign/serializers.dart';
+import 'package:oak_openfeign_example/src/feign/serializers.dart';
 
 
 part 'api_resp.g.dart';

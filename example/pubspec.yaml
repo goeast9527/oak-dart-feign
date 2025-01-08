@@ -1,19 +1,20 @@
-name: fengwuxp_openfeign_example
+name: oak_openfeign_example
 description: dart openfiegn exmaple
-version: 0.0.3
-homepage: https://github.com/fengwuxp/dart_openfeign
+version: 1.0.0
+homepage: https://github.com/goeast9527/oak-dart-feign
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
+  sdk: ">=3.3.0 <4.0.0"
+  flutter: ">=3.24.0 <=3.24.3"
 
 dependencies:
   flutter:
     sdk: flutter
-  built_collection: ^5.0.0
-  built_value: ^8.0.2
+  built_collection: ^5.1.1
+  built_value: ^8.3.0
   oak_dart_basic:
-    git: https://github.com/fengwuxp/oak_dart_basic.git
-  fengwuxp_openfeign_boot:
+    git: https://github.com/goeast9527/oak-dart-basic.git
+  oak_openfeign_boot:
     path: ../boot/
   bot_toast: ^4.0.1
   flutter_spinkit: ^5.1.0
@@ -21,12 +22,12 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  test: ^1.0.0
-  build_runner: ^2.0.4
-  build_test: ^2.1.0
+  test: ^1.25.14
+  build_runner: 2.4.10
+  build_test: ^2.2.3
   # If you need to run web tests, you will also need this dependency.
   #  build_web_compilers: any
-  built_value_generator:  ^8.0.2
+  built_value_generator:  ^8.9.3
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 

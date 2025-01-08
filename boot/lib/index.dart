@@ -1,4 +1,4 @@
-library fengwuxp_openfeign_boot;
+library oak_openfeign_boot;
 
 export 'src/registry/client_http_interceptor_registration.dart';
 export 'src/registry/client_http_interceptor_registry.dart';

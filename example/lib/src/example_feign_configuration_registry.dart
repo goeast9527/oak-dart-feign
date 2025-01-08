@@ -2,8 +2,8 @@ import 'package:bot_toast/bot_toast.dart';
 import 'package:bot_toast/src/toast_widget/animation.dart';
 import 'package:oak_dart_openfeign/index.dart';
 import 'package:oak_dart_openfeign/src/http/http_request.dart';
-import 'package:fengwuxp_openfeign_boot/index.dart';
-import 'package:fengwuxp_openfeign_example/src/api_resp.dart';
+import 'package:oak_openfeign_boot/index.dart';
+import 'package:oak_openfeign_example/src/api_resp.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 

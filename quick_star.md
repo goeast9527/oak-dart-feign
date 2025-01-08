@@ -2,11 +2,11 @@
 
 ##### 接入方式
 
-- 依赖 [fengwuxp_openfeign_boot](./build) ，可以参考 [example](./example)
+- 依赖 [oak_openfeign_boot](./build) ，可以参考 [example](./example)
 ```yaml
   oak_dart_basic:
     git: https://github.com/fengwuxp/oak_dart_basic.git
-  fengwuxp_openfeign_boot:
+  oak_openfeign_boot:
     git: https://github.com/fengwuxp/oak_dart_feign.git
     path: boot
 ```

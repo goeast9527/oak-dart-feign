@@ -2,16 +2,16 @@ import 'dart:convert';
 
 import 'package:oak_dart_basic/index.dart';
 import 'package:oak_dart_openfeign/index.dart';
-import 'package:fengwuxp_openfeign_boot/index.dart';
-import 'package:fengwuxp_openfeign_example/src/example_feign_configuration_registry.dart';
-import 'package:fengwuxp_openfeign_example/src/feign/article_action_type.dart';
-import 'package:fengwuxp_openfeign_example/src/feign/clients/article_action_feign_client.dart';
-import 'package:fengwuxp_openfeign_example/src/feign/clients/example_cms_feign_client.dart';
-import 'package:fengwuxp_openfeign_example/src/feign/req/add_article_action_req.dart';
-import 'package:fengwuxp_openfeign_example/src/feign/req/delete_article_action_req.dart';
-import 'package:fengwuxp_openfeign_example/src/feign/req/edit_article_action_req.dart';
-import 'package:fengwuxp_openfeign_example/src/feign/req/query_article_action_req.dart';
-import 'package:fengwuxp_openfeign_example/src/feign/serializers.dart';
+import 'package:oak_openfeign_boot/index.dart';
+import 'package:oak_openfeign_example/src/example_feign_configuration_registry.dart';
+import 'package:oak_openfeign_example/src/feign/article_action_type.dart';
+import 'package:oak_openfeign_example/src/feign/clients/article_action_feign_client.dart';
+import 'package:oak_openfeign_example/src/feign/clients/example_cms_feign_client.dart';
+import 'package:oak_openfeign_example/src/feign/req/add_article_action_req.dart';
+import 'package:oak_openfeign_example/src/feign/req/delete_article_action_req.dart';
+import 'package:oak_openfeign_example/src/feign/req/edit_article_action_req.dart';
+import 'package:oak_openfeign_example/src/feign/req/query_article_action_req.dart';
+import 'package:oak_openfeign_example/src/feign/serializers.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:logging/logging.dart';
 
