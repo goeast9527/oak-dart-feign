@@ -10,7 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  meta: 1.15.0
+  meta: ^1.15.0
   reflectable: ^4.0.12
   built_collection: ^5.1.1
   built_value: ^8.9.3
